@@ -1,18 +1,19 @@
 h1 {
     font-family: 'Dosis', sans-serif;
+    color: #000;
 }
 
 .featured-review {
-    display: flex;
-    flex-direction: row;
-    max-width: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100%;
 }
 
 
 .review_card{
     padding-top: 0.7em;
     padding-bottom: 2em;
-    max-width: 40vh;
+    max-width: 300vh;
     margin:30px; 
     border-radius: 10px;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
@@ -48,20 +49,24 @@ form {
 
 
 #display_rating {
-    display: flex !important;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     width: 50px;
     background-color: #6c3;
     border-radius: 0.5em;
-    margin-left: 1em;
     color: #fff;
     font-weight: bold;
-    
     text-align: center;
     
 }
+
+.username {
+    font-weight: 700;
+}
+
+
 
 
 

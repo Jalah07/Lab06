@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="reviews.css">
 </head>
 <body>
-    <h1>Review</h1>
+    <h1>User Reviews</h1>
     <div class="featured_reviews">
 
         <div class="review_card">
@@ -33,20 +33,20 @@
         </div>
 
 
-    </div>
+    
 
 
 
     <div class="review_card">
     <form id="form">
-        <h2>Please leave a review for your favorite!</h2>
+        <h2>Please leave a review for your favorite games!</h2>
         Enter username: <input type="text" id ="user_username" >
         <br>
         Enter rating: <input type="number" id ="user_rating">
         <br>
         Enter the game: <input type="text" id ="user_game">
         <br>
-        Enter your review:<textarea name="user_review" id="user_review" cols="40" rows="10"></textarea>
+        Enter your review:<textarea name="user_review" id="user_review" cols="30" rows="15"></textarea>
        
         <input type="button" onclick="showReview()" value="Submit" id="submit-btn"/>
         
@@ -57,7 +57,7 @@
         <p><span id ="display_review"></span> </p>
     </div>
 
-
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="app.js"></script>
